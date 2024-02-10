@@ -1,9 +1,10 @@
 .header {
-  background-color: #003580;
+  background-color: rgb(83, 136, 138);
   color: white;
   display: flex;
   justify-content: center;
   position: relative;
+  border-bottom: 2px solid black;
 }
 
 .headerContainer {
@@ -39,18 +40,19 @@
 }
 
 .headerBtn {
-  background-color: #0071c2;
-  color: white;
+  background-color: rgb(83, 136, 138);
+  color: rgb(255, 255, 255);
   font-weight: 500;
-  border: none;
   padding: 10px;
   cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid black;
 }
 
 .headerSearch {
   height: 30px;
   background-color: white;
-  border: 3px solid #febb02;
+  border: 3px solid rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -63,7 +65,7 @@
 }
 
 .headerIcon {
-  color: lightgray;
+  color: black;
 }
 
 .headerSearchItem {
@@ -78,7 +80,7 @@
 }
 
 .headerSearchText {
-  color: lightgray;
+  color:black;
   cursor: pointer;
 }
 
@@ -111,7 +113,7 @@
   align-items: center;
   gap: 10px;
   font-size: 12px;
-  color: black;
+  color: white;
 }
 
 .optionCounterButton {

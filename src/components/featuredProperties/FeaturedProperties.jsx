@@ -11,7 +11,7 @@ const FeaturedProperties = () => {
           {data.map((item) => (
             <div className="fpItem" key={item._id}>
               <img
-                src={item.photos[0]}
+                src="https://media.istockphoto.com/id/1299098384/photo/modern-bedroom-interior-stock-photo.jpg?s=1024x1024&w=is&k=20&c=fQJhCOOb7olzQ_nlh7xZ84txr6YxaWldbhGhTyq_Y2M="
                 alt=""
                 className="fpImg"
               />
